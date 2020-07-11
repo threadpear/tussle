@@ -1,0 +1,94 @@
+	<style>
+		/* Typeface - GOOGLE FONTS ---------------------------------------------------------------------------------------------------- */
+	    .GOOGLE-Roboto
+	    {
+	    	font-family: 'Roboto';
+	    	font-weight: 400;
+	    }
+	    .GOOGLE-RobotoBold
+	    {
+	    	font-family: 'Roboto';
+	    	font-weight: 700;
+	    	font-style: normal;
+
+	    }
+	   	.GOOGLE-RobotoBoldItalic
+	    {
+	    	font-family: 'Roboto';
+	    	font-weight: 700;
+	    	font-style: italic;
+	    }
+		/* Typeface - CLASSES -------------------------------------------------- */
+		
+		{
+			border: 1px solid white;
+		}
+		body { padding-top: 86px; background-color: #F9EDD9}
+		.head
+		{
+	    	font-family: 'Roboto';
+	    	font-weight: 900;
+	    	font-style: italic;
+	    	text-transform: uppercase;
+	    	opacity: .25;
+		}
+		.sub
+		{
+	    	font-family: 'Roboto';
+	    	font-weight: 900;
+	    	font-style: italic;
+	    	font-size: 2.5em; 
+	    	line-height: 1.1;			
+		}
+		
+		.hero
+		{
+			position: absolute; 
+			box-sizing: border-box; 
+			right: 15%; 
+			left: 15%; 
+			top: 20%; 
+			padding-top: 20px; 
+			padding-bottom: 20px; 
+			z-index: 10; 
+			display: block; 
+			text-align: center;
+		}
+		.herotitle
+		{
+			position: absolute; 
+			box-sizing: border-box; 
+			right: 15%; 
+			left: 15%; 
+			top: 10%; 
+			padding-top: 20px; 
+			z-index: 10; 
+			display: block; 
+			text-align: right;
+		}
+		/* -- Ensures carousel images don't vertically oversize on larger monitors -- */
+		.carousel-item 
+		{
+	    max-height: 700px;
+	    margin: 0 auto;
+		}
+		.carousel-caption p
+		{
+	    	font-family: 'Roboto';
+	    	font-weight: 700;
+	    	font-style: italic;
+			margin-bottom: 1.25rem;
+			font-size: 1.25rem;
+			line-height: 1.15;
+		}
+		.btn-primary
+		{
+			background-color: #414142;
+			border: 1px solid white;
+		}
+		/* ------ MEDIA QUERIES ------- */
+
+	</style>
+
+
+
